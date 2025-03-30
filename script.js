@@ -11,7 +11,6 @@ function kopjoLink(link) {
     tempInput.select();
     document.execCommand("copy");
     document.body.removeChild(tempInput);
-    alert("Linku u kopjua: " + link);
 }
 
 function kerkoKategori() {
