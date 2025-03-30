@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Falas 2025</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Lidh CSS -->
+</head>
+<body>
+
+    <h1>IPTV Falas 2025</h1>
+    
+    <input type="text" id="search" onkeyup="kerkoKategori()" placeholder="Kërko kategori...">
+
+    <div>
+        <div class="category" onclick="shfaqLinke('sporte')">Sporte</div>
+        <div class="category" onclick="shfaqLinke('shqip')">Kanale Shqip</div>
+        <div class="category" onclick="shfaqLinke('huaja')">Kanale të Huaja</div>
+    </div>
+
+    <div id="sporte" class="links">
+        <h3>Kanale Sportive</h3>
+        <div class="link-item">
+            <a href="http://sport1.com/iptv" target="_blank" class="link-text">http://sport1.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://sport1.com/iptv')">Kopjo</button>
+        </div>
+        <div class="link-item">
+            <a href="http://sport2.com/iptv" target="_blank" class="link-text">http://sport2.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://sport2.com/iptv')">Kopjo</button>
+        </div>
+    </div>
+
+    <div id="shqip" class="links">
+        <h3>Kanale Shqip</h3>
+        <div class="link-item">
+            <a href="http://shqip1.com/iptv" target="_blank" class="link-text">http://shqip1.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://shqip1.com/iptv')">Kopjo</button>
+        </div>
+        <div class="link-item">
+            <a href="http://shqip2.com/iptv" target="_blank" class="link-text">http://shqip2.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://shqip2.com/iptv')">Kopjo</button>
+        </div>
+    </div>
+
+    <div id="huaja" class="links">
+        <h3>Kanale të Huaja</h3>
+        <div class="link-item">
+            <a href="http://huaja1.com/iptv" target="_blank" class="link-text">http://huaja1.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://huaja1.com/iptv')">Kopjo</button>
+        </div>
+        <div class="link-item">
+            <a href="http://huaja2.com/iptv" target="_blank" class="link-text">http://huaja2.com/iptv</a>
+            <button class="copy-button" onclick="kopjoLink('http://huaja2.com/iptv')">Kopjo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Lidh JavaScript -->
+</body>
+</html>
